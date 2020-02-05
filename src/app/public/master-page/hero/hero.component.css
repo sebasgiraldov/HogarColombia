@@ -1,0 +1,33 @@
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 40vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    color: white; /* ADD THIS LINE */
+    
+    /* Background styles */
+    background-image: url('https://www.hotelesestelar.com/sites/all/themes/files/destino/manizales.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url('https://www.hotelesestelar.com/sites/all/themes/files/destino/manizales.jpg');
+    background-size: cover;
+    height: 300px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .hero h1 {
+    /* Text styles */
+    font-size: 5em;
+    
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+  }
+  

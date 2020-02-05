@@ -7,6 +7,10 @@ import { NavbarComponent } from './public/master-page/navbar/navbar.component';
 import { HeroComponent } from './public/master-page/hero/hero.component';
 import { FooterComponent } from './public/footer/footer.component';
 import { HomeComponent } from './public/master-page/home/home.component';
+import { PageNotFoundComponent } from './public/page-not-found/page-not-found.component';
+import { MisionComponent } from './public/mision/mision.component';
+import { VisionComponent } from './public/vision/vision.component';
+import { ContactoComponent } from './public/contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { HomeComponent } from './public/master-page/home/home.component';
     NavbarComponent,
     HeroComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    PageNotFoundComponent,
+    MisionComponent,
+    VisionComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,
